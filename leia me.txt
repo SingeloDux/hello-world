@@ -1,0 +1,45 @@
+git add
+git status
+git commit -m "mensagem da versao"
+
+git commit -a -m "mensagem da versao, pulamos a fase do git add"
+git commit --amend -m "edicao dos arquivos (edicao)"
+
+basicos
+
+Aula 2
+
+git diff 
+git diff --staged
+
+git log
+git log -p
+git log -p -1
+git log --pretty=oneline
+
+gitk
+
+git tag
+git tag -a ver1.0 -m "versao 1.0"
+git tag -a chavehash -m "versao do sistema"
+git tag -d ver1.0
+git show ver1.0
+
+Ambiente de testes fora do master
+git branch
+git branch teste
+git ckeckout teste
+or
+git checkout -b teste
+
+git merge teste
+git branch -d teste
+
+
+criacao de repositorios para rede
+_____________________________________________________________________________
+git init --bare
+
+
+clonagem de repositorios
+git clone file:////servidor/projectos/cliente1
